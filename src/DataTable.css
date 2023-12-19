@@ -1,0 +1,28 @@
+.table {
+    margin: 10px;
+    border-radius: 7px 7px 0px 0px;
+    border-style: solid;
+    border-width: 5px 0px 3px 0px;
+    border-color: #646cff;
+}
+
+.table:hover{
+    box-shadow: 0 4px 8px 0 #03040e, 0 6px 20px 0 #646cff;
+
+}
+
+.even {
+    color: rgb(218, 235, 235);
+    background-color: #444685;
+}
+
+.odd {
+    background-color: #353a63;
+}
+
+
+
+#tableHeader {
+    background-color: #646cff;
+    color: white;
+}
