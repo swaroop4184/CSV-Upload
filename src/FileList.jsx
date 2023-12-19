@@ -38,7 +38,7 @@ function FileList({refreshFileListFlag, data, setData}) {
         <tbody>
           {files.map((fileName) => (
             <tr key={fileName}>
-              <td><button onClick={getData} value={fileName}>{fileName}</button></td>
+              <td><button className="butt" onClick={getData} value={fileName}>{fileName}</button></td>
             </tr>
           ))}
         </tbody>
